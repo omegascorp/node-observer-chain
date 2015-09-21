@@ -17,9 +17,8 @@ class Observable {
         });
     }
     notifyObservers() {
-        var args = arguments;
-        this.observers.forEach(function(observer) {
-            observer.handleEvent.apply(observer, args);
+        this.observers.forEach((observer) => {
+            observer.handleEvent.apply(observer, arguments);
         });
     }
 }
