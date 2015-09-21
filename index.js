@@ -13,10 +13,10 @@ Observable.prototype.removeObserver = function(observer) {
         }
     });
 };
-Observable.prototype.notifyObservers = function(data) {
-    console.log('ok');
+Observable.prototype.notifyObservers = function() {
+    var args = arguments;
     this.observers.forEach(function(observer) {
-        observer.handleEvent(data);
+        observer.handleEvent.apply(observer, args);
     });
 };
 
