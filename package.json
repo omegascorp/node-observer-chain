@@ -1,5 +1,5 @@
 {
-  "name": "observer-chain",
+  "name": "observer-list",
   "version": "1.0.0",
   "description": "Simple observer pattern implementation",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omegascorp/node-observer-chain.git"
+    "url": "git+https://github.com/omegascorp/node-observer-list.git"
   },
   "author": {
     "name": "omegascorp",
@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/omegascorp/node-observer-chain/issues"
+    "url": "https://github.com/omegascorp/node-observer-list/issues"
   },
-  "homepage": "https://github.com/omegascorp/node-observer-chain#readme"
+  "homepage": "https://github.com/omegascorp/node-observer-list#readme"
 }
